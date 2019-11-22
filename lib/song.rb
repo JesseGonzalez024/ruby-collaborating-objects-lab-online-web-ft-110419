@@ -13,7 +13,7 @@ class Song
     array = file.split(" - ")
     song = array[1]
     artist = array[0]
-    
+    song = Song.new
     
   end
   
