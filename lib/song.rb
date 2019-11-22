@@ -16,7 +16,7 @@ class Song
     song
   end
   def artist_name=(name)
-    
+    name
   end
   
  
