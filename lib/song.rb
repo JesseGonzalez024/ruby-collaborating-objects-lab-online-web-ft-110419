@@ -13,7 +13,7 @@ class Song
     array = file.split(" - ")
     song = Song.new(array[1])
     song.artist = Artist.find_or_create_by_name(array[0])
-    
+    song
   end
   
  
